@@ -14,7 +14,7 @@ function PlantCard({name, image, price}) {
       <p>Price: {`${price}`}</p>
       
       { click ? (
-        <button  onClick={handleClick} className="primary">In Stock</button>
+        <button  onClick={handleClick} className="primary"> In Stock </button>
       ) : (
         <button onClick={handleClick}>Out of Stock</button>
       )}
@@ -23,3 +23,5 @@ function PlantCard({name, image, price}) {
 }
 
 export default PlantCard;
+
+

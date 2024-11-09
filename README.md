@@ -110,7 +110,7 @@ As a user:
    refreshing the page.
 2. I can delete a plant and it is still gone when I refresh the page.
 
-### Endpoints for Advanced Deliverables
+### Endpoints Of Advanced Deliverables
 
 #### PATCH /plants/:id
 
